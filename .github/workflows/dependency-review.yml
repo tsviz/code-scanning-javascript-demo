@@ -16,7 +16,5 @@ jobs:
     steps:
       - name: 'Checkout Repository'
         uses: actions/checkout@v3
-      - name: 'Install Dependencies'
-        run: npm install
       - name: 'Dependency Review'
         uses: actions/dependency-review-action@v3
