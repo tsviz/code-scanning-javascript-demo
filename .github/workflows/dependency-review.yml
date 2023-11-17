@@ -19,4 +19,4 @@ jobs:
       - name: 'Dependency Review'
         uses: actions/dependency-review-action@v3
         with:
-            fail-on-scopes: development, runtime
+            fail-on-scopes: development, runtime, unchanged
